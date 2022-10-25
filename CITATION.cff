@@ -1,0 +1,51 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Classifying Anomalous Members in a Collection of
+  Multivariate Time Series Data Using Large
+  Deviations Principle: An Application to COVID-19
+  Data
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sreelekha
+    family-names: Guggilam
+  - given-names: Varun
+    family-names: Chandola
+  - given-names: Abani
+    family-names: Patra
+identifiers:
+  - type: url
+    value: >-
+      https://link.springer.com/chapter/10.1007/978-3-031-08751-6_10
+    description: ICCS 2022
+repository-code: 'https://code.ornl.gov/otg/anomaly'
+abstract: >-
+  Anomaly detection for time series data is often
+  aimed at identifying extreme behaviors within an
+  individual time series. However, identifying
+  extreme trends relative to a collection of other
+  time series is of significant interest, like in the
+  fields of public health policy, social justice and
+  pandemic propagation. We propose an algorithm that
+  can scale to large collections of time series data
+  using the concepts from the theory of large
+  deviations. Exploiting the ability of the algorithm
+  to scale to high-dimensional data, we propose an
+  online anomaly detection method to identify
+  anomalies in a collection of multivariate time
+  series. We demonstrate the applicability of the
+  proposed Large Deviations Anomaly Detection (LAD)
+  algorithm in identifying counties in the United
+  States with anomalous trends in terms of COVID-19
+  related cases and deaths. Several of the identified
+  anomalous counties correlate with counties with
+  documented poor response to the COVID pandemic.
+keywords:
+  - Anomaly detection
+  - Time series
+  - Large deviations theory
